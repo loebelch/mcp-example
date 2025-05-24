@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wled-controller": {
+      "command": "node",
+      "args": [
+        "/Users/username/Downloads/mcp-server/index.js"
+      ],
+      "env": {
+        "NODE_PATH": "/Users/username/Downloads/mcp-server/node_modules"
+      }
+    }
+  }
+}
