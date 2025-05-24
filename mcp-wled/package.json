@@ -1,0 +1,18 @@
+{
+  "name": "wled-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for controlling WLED devices",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["mcp", "wled", "led", "smart-home"],
+  "author": "",
+  "license": "MIT"
+}
